@@ -1,6 +1,6 @@
 @font-face {
 font-family: "Regular";
-src: url("https://github.com/LudovicaErre/AdaLod/blob/main/font/XanhMono-Regular.ttf");
+src: url("font/XanhMono-Regular.ttf");
 }
 
 
@@ -48,7 +48,7 @@ p, h1, h2, .md-start, .nav-link, .md-start1{
 }
 
 .cover-container {
-	background-image: url("https://github.com/LudovicaErre/AdaLod/blob/main/images/Lovelace1.png");
+	background-image: url("images/Lovelace1.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
