@@ -60,6 +60,7 @@ p, h1, h2, .md-start, .nav-link, .md-start1{
 a {
   outline: none;
   text-decoration: none;
+  color: white;
 }
 
 a:hover{
@@ -116,20 +117,6 @@ a:hover{
 }
 
 /*card*/
-
-.bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
       
 .container-fluid{
 	padding-top: 5em;
@@ -137,4 +124,20 @@ a:hover{
 
 #start, #end{
 	padding-top: 3em;
+}
+
+#item{
+	margin-bottom: 2em;
+}
+
+.card-img-top{
+	height: 23em;
+	width: 21em;
+}
+
+/*gif*/
+
+#study{
+	width: 15em;
+	height: auto;
 }
