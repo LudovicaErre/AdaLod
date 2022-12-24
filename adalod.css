@@ -295,3 +295,14 @@ thead{
 .tables{
 	font-size: 1.2em;
 }
+
+#ada-tab, #adaportrait-tab, #picada-tab, #calclet-tab, #adalogo-tab, #adalett-tab, #art-tab, #conce-tab, #spy-tab, #potr-tab, #book-tab{
+	color: #9aaee2;	
+	margin-bottom: 1em;
+	font-size: 1.3em;
+}
+
+#ada-tab:hover, #adaportrait-tab:hover, #picada-tab:hover, #calclet-tab:hover, #adalogo-tab:hover, #adalett-tab:hover, #art-tab:hover, 
+#conce-tab:hover, #spy-tab:hover, #potr-tab:hover, #book-tab:hover{
+	color: #000;	
+}
