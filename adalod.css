@@ -42,7 +42,7 @@ p, h1, h2, .md-start, .nav-link, .md-start1, li{
 }
 
 .cover-container {
-	background-image: url("images/lovelace1.png");
+	background-image: url("../images/lovelace1.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
