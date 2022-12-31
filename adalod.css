@@ -1,9 +1,9 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+@import url('https://cdn.rawgit.com/lonekorean/gist-syntax-themes/d49b91b3/stylesheets/one-dark.css');
 @font-face {
 font-family: "Regular";
 src: url("font/XanhMono-Regular.ttf");
 }
-
 
 /*Custom default button*/
 .btn-secondary,
@@ -141,6 +141,11 @@ h3{
 	margin-top: 3em;
 }
 
+#uri{
+	text-align: justify;
+	margin-left: 1em;
+}
+
 /*card*/
       
 .container-fluid{
@@ -224,7 +229,7 @@ b {
 
 /*maps*/
 
-#er, #meta{
+#er, #meta, #rdf, #rdfa{
 	margin-top: 2em;
 }
 
@@ -247,6 +252,10 @@ div.zoom_container {
 
 .zoom_container.hidden {
     display: none;    
+}
+
+#foreste{
+	width: 60em;
 }
 
 /*table*/
@@ -305,4 +314,36 @@ thead{
 #ada-tab:hover, #adaportrait-tab:hover, #picada-tab:hover, #calclet-tab:hover, #adalogo-tab:hover, #adalett-tab:hover, #art-tab:hover, 
 #conce-tab:hover, #spy-tab:hover, #potr-tab:hover, #book-tab:hover{
 	color: #000;	
+}
+
+.gist{
+	width: 68em;
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+}
+
+.hrdf{
+	color: #9aaee2;
+	border: solid;
+}
+
+#valid{
+	font-size: 0.90em;
+	margin-bottom: -0.15em;
+}
+
+/*footer*/
+
+footer{
+	margin-top: 1em;
+}
+
+#cont{
+	padding: 1em;
+	font-size: 1.2em;
+}
+
+#cop{
+	padding-bottom: 1em;
 }
